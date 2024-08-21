@@ -31,23 +31,26 @@ const SilkscreenPage = () => {
                         </ol>
                     </div>
                 </nav>
-
                 {/* Content Section */}
                 <div className="container mx-auto px-4 py-8">
+                    {/* Silicone Transfers Section */}
                     <div className="bg-gray-50 p-6 rounded-lg shadow-lg">
                         <p className="text-gray-800">
-                            Serigraphy is a printing process that uses a blade to press ink through mesh screens of various gauges.
-                            <strong> A silkscreen transfer</strong>, printed onto a specific paper, is a graphic that is applied with a thermal press onto multiple forms of support (textile, non-woven fabrics, cardboard, etc,...).
+                            <strong>Silicone transfers</strong> are advanced printing solutions that utilize silicone-based inks to create durable, flexible, and highly resistant designs. These transfers are applied using a thermal press and are ideal for various types of supports, including textiles, non-woven fabrics, and technical materials.
                         </p>
-                        <h2 className="text-xl font-semibold mt-6">Silkscreen transfers have a number of advantages:</h2>
+                        <h2 className="text-xl font-semibold mt-6">Advantages of Silicone Transfers:</h2>
                         <ul className="list-disc pl-5 mt-4 space-y-2 text-gray-800">
-                            <li><strong>Quick and easy application</strong>: Branding applied in a few seconds with a thermal press.</li>
-                            <li><strong>Durable quality</strong>: Ideal solution for a perfect, long-lasting result. Economically and environmentally advantageous, promoting a favourable long term image.</li>
-                            <li><strong>Limitless creativity</strong>: Printing of all sorts of visuals, simple or complex, clean-cut or finely detailed (labels, illustrations, logos, photographic images...), giving free rein to your imagination.</li>
-                            <li><strong>Special effects</strong>: Potential to stand-out by incorporating options such as glitter or fluorescent colours, for example.</li>
+                            <li><strong>Exceptional Durability</strong>: Outstanding resistance to washing, abrasion, and environmental factors, ensuring that your designs remain vibrant and intact even after repeated use.</li>
+                            <li><strong>Superior Flexibility</strong>: Designed to stretch with the fabric, silicone transfers maintain their shape and integrity, making them ideal for applications on technical fabrics and activewear.</li>
+                            <li><strong>High-Quality Finish</strong>: Provides a smooth, raised finish that adds a premium look and feel to your products, with a tactile 3D effect that enhances visual appeal.</li>
+                            <li><strong>Wide Range of Effects</strong>: Customizable to achieve glossy, matte, or textured finishes, with options for reflective, fluorescent, or metallic effects.</li>
+                            <li><strong>Customizability</strong>: Offers unparalleled creative freedom with the ability to match specific Pantone colors and create custom textures.</li>
+                            <li><strong>Eco-Friendly</strong>: Free from harmful chemicals and compliant with environmental standards, making them a sustainable choice for conscientious brands.</li>
+                            <li><strong>Ease of Application</strong>: Quick and easy to apply, requiring only a few seconds under a thermal press to deliver professional results.</li>
                         </ul>
                     </div>
                 </div>
+
             </div>
             <Showcase />
             <Footer />

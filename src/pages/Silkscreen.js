@@ -36,7 +36,7 @@ const SilkscreenPage = () => {
                 <div className="container mx-auto px-4 py-8">
                     <div className="bg-gray-50 p-6 rounded-lg shadow-lg">
                         <p className="text-gray-800">
-                            Serigraphy is a printing process that uses a blade to press ink through mesh screens of various gauges.
+                            <strong>Serigraphy</strong> is a printing process that uses a blade to press ink through mesh screens of various gauges.
                             <strong> A silkscreen transfer</strong>, printed onto a specific paper, is a graphic that is applied with a thermal press onto multiple forms of support (textile, non-woven fabrics, cardboard, etc,...).
                         </p>
                         <h2 className="text-xl font-semibold mt-6">Silkscreen transfers have a number of advantages:</h2>

@@ -16,7 +16,7 @@ const Header = () => {
         {/* Logo */}
         <div className="text-xl font-bold text-white">
           <Link to="/" className="flex items-center">
-            <img src={Logo} alt="Logo" className="h-24 mr-2" />
+            <img src={Logo} alt="Logo" className="h-28 mr-2" />
           </Link>
         </div>
 
@@ -41,13 +41,6 @@ const Header = () => {
                 <Link to="/silkscreen" className="text-white hover:text-gray-300 py-3 lg:py-0">
                   Serigraph Transfers
                 </Link>
-                <div className="absolute left-0 hidden group-hover:block mt-0 py-3 w-56 bg-white rounded-lg shadow-lg">
-                  <Link to="/silkscreen/four-colour" className="block px-4 py-2 text-gray-800 hover:bg-gray-200">Four Colour Transfer</Link>
-                  <Link to="/silkscreen/monochrome" className="block px-4 py-2 text-gray-800 hover:bg-gray-200">Monochrome Transfer</Link>
-                  <Link to="/silkscreen/serilabel" className="block px-4 py-2 text-gray-800 hover:bg-gray-200">SeriLabel: Label Transfer</Link>
-                  <Link to="/silkscreen/stop-bleeding" className="block px-4 py-2 text-gray-800 hover:bg-gray-200">Stop Colour-Bleeding Option</Link>
-                  <Link to="/silkscreen/low-temp" className="block px-4 py-2 text-gray-800 hover:bg-gray-200">Low Temperature Option</Link>
-                </div>
               </div>
               <div className="relative group">
                 <Link to="/silicone" className="text-white hover:text-gray-300 py-3 lg:py-0">
@@ -65,9 +58,10 @@ const Header = () => {
                   Laser Cut Transfer
                 </Link>
                 <div className="absolute left-0 hidden group-hover:block mt-0 py-3 w-56 bg-white rounded-lg shadow-lg">
-                  <Link to="/dtf/option1" className="block px-4 py-2 text-gray-800 hover:bg-gray-200">Option 1</Link>
-                  <Link to="/dtf/option2" className="block px-4 py-2 text-gray-800 hover:bg-gray-200">Option 2</Link>
-                  <Link to="/dtf/option3" className="block px-4 py-2 text-gray-800 hover:bg-gray-200">Option 3</Link>
+                  <Link to="/dtf/option1" className="block px-4 py-2 text-gray-800 hover:bg-gray-200">Reflective</Link>
+                  <Link to="/dtf/option2" className="block px-4 py-2 text-gray-800 hover:bg-gray-200">Special Effects</Link>
+                  <Link to="/dtf/option3" className="block px-4 py-2 text-gray-800 hover:bg-gray-200">Hologram</Link>
+                  <Link to="/dtf/option3" className="block px-4 py-2 text-gray-800 hover:bg-gray-200">Glitter</Link>
                 </div>
               </div>
               <div className="relative group">
@@ -75,9 +69,11 @@ const Header = () => {
                   Offset & Photoprint Transfer
                 </Link>
                 <div className="absolute left-0 hidden group-hover:block mt-0 py-3 w-56 bg-white rounded-lg shadow-lg">
-                  <Link to="/dtf/option1" className="block px-4 py-2 text-gray-800 hover:bg-gray-200">Option 1</Link>
-                  <Link to="/dtf/option2" className="block px-4 py-2 text-gray-800 hover:bg-gray-200">Option 2</Link>
-                  <Link to="/dtf/option3" className="block px-4 py-2 text-gray-800 hover:bg-gray-200">Option 3</Link>
+                  <Link to="/dtf/option1" className="block px-4 py-2 text-gray-800 hover:bg-gray-200">On paper</Link>
+                  <Link to="/dtf/option2" className="block px-4 py-2 text-gray-800 hover:bg-gray-200">Anti-Migration</Link>
+                  <Link to="/dtf/option3" className="block px-4 py-2 text-gray-800 hover:bg-gray-200">Reflective</Link>
+                  <Link to="/dtf/option3" className="block px-4 py-2 text-gray-800 hover:bg-gray-200">Glitter</Link>
+                  <Link to="/dtf/option3" className="block px-4 py-2 text-gray-800 hover:bg-gray-200">Metallic Pearl</Link>
                 </div>
               </div>
               <div className="relative group">
@@ -85,16 +81,16 @@ const Header = () => {
                   Materials
                 </Link>
                 <div className="absolute left-0 hidden group-hover:block mt-0 py-3 w-56 bg-white rounded-lg shadow-lg">
-                  <Link to="/machines/option1" className="block px-4 py-2 text-gray-800 hover:bg-gray-200">Option 1</Link>
-                  <Link to="/machines/option2" className="block px-4 py-2 text-gray-800 hover:bg-gray-200">Option 2</Link>
-                  <Link to="/machines/option3" className="block px-4 py-2 text-gray-800 hover:bg-gray-200">Option 3</Link>
+                  <Link to="/machines/option1" className="block px-4 py-2 text-gray-800 hover:bg-gray-200">Machines</Link>
+                  <Link to="/machines/option2" className="block px-4 py-2 text-gray-800 hover:bg-gray-200">Ink</Link>
+                  <Link to="/machines/option3" className="block px-4 py-2 text-gray-800 hover:bg-gray-200">Thermal Presses</Link>
                 </div>
               </div>
             </div>
 
             {/* Contact and Language in mobile view */}
             <div className="lg:hidden flex flex-col mt-4 space-y-2 pb-4">
-              <a href="#contact" className="text-white text-sm font-semibold hover:text-gray-300">Contact</a>
+              <a href="#contact" className="text-white  hover:text-gray-300 text-xl font-extrabold uppercase">CONTACT</a>
               <div className="relative pt-2">
                 <select className="bg-indigo-950 text-white text-sm border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
                   <option value="EN">EN</option>
@@ -107,7 +103,7 @@ const Header = () => {
 
         {/* Contact and Language in desktop view */}
         <div className="hidden lg:flex items-center space-x-4">
-          <a href="#contact" className="text-white text-sm font-semibold hover:text-gray-300">Contact</a>
+          <a href="#contact" className="text-white text-l font-bold hover:text-gray-300">CONTACT</a>
           <div className="relative">
             <select className="bg-indigo-950 text-white text-sm border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
               <option value="EN">EN</option>

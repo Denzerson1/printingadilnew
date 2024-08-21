@@ -34,20 +34,25 @@ const SilkscreenPage = () => {
 
                 {/* Content Section */}
                 <div className="container mx-auto px-4 py-8">
+                    {/* Laser-Cut Transfers Section */}
                     <div className="bg-gray-50 p-6 rounded-lg shadow-lg">
                         <p className="text-gray-800">
-                            Serigraphy is a printing process that uses a blade to press ink through mesh screens of various gauges.
-                            <strong> A silkscreen transfer</strong>, printed onto a specific paper, is a graphic that is applied with a thermal press onto multiple forms of support (textile, non-woven fabrics, cardboard, etc,...).
+                            <strong>Laser-cut transfers</strong> utilize advanced die-cutting technology to produce precisely cut designs with clean outlines and intricate details. These transfers are applied using a thermal press and are suitable for various types of supports, including textiles, PU, and non-woven fabrics.
                         </p>
-                        <h2 className="text-xl font-semibold mt-6">Silkscreen transfers have a number of advantages:</h2>
+                        <h2 className="text-xl font-semibold mt-6">Advantages of Laser-Cut Transfers:</h2>
                         <ul className="list-disc pl-5 mt-4 space-y-2 text-gray-800">
-                            <li><strong>Quick and easy application</strong>: Branding applied in a few seconds with a thermal press.</li>
-                            <li><strong>Durable quality</strong>: Ideal solution for a perfect, long-lasting result. Economically and environmentally advantageous, promoting a favourable long term image.</li>
-                            <li><strong>Limitless creativity</strong>: Printing of all sorts of visuals, simple or complex, clean-cut or finely detailed (labels, illustrations, logos, photographic images...), giving free rein to your imagination.</li>
-                            <li><strong>Special effects</strong>: Potential to stand-out by incorporating options such as glitter or fluorescent colours, for example.</li>
+                            <li><strong>Precise Contours and Clean Outlines</strong>: Advanced laser technology ensures sharp, accurate cuts for even the most intricate designs.</li>
+                            <li><strong>Optimal Elasticity</strong>: Ideal for technical fabrics, these transfers stretch and move with the material, maintaining their shape and detail.</li>
+                            <li><strong>Diversity of Materials</strong>: Available in a variety of finishes, including matte, glossy, textured, reflective, fluorescent, phosphorescent, and 3D relief options.</li>
+                            <li><strong>Customisation</strong>: Specific colouring and unique designs can be created upon request, offering a high level of personalization.</li>
+                            <li><strong>Excellent Longevity and Abrasion Resistance</strong>: Designed to withstand regular wear and tear, these transfers are durable and maintain their appearance over time.</li>
+                            <li><strong>Washable at 60ºC (140°F)</strong>: High temperature resistance ensures that designs remain intact and vibrant even after repeated washing.</li>
+                            <li><strong>Quick and Easy to Use</strong>: Transfers can be applied in just a few seconds using a thermal press, streamlining the production process.</li>
+                            <li><strong>Choice of Packaging</strong>: Available as individual items or on a roll, providing flexibility in application and storage.</li>
                         </ul>
                     </div>
                 </div>
+
             </div>
             <Showcase />
             <Footer />

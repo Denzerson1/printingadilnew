@@ -34,20 +34,26 @@ const SilkscreenPage = () => {
 
                 {/* Content Section */}
                 <div className="container mx-auto px-4 py-8">
+
+                    {/* Offset and Photoprint Transfers Section */}
                     <div className="bg-gray-50 p-6 rounded-lg shadow-lg">
                         <p className="text-gray-800">
-                            Serigraphy is a printing process that uses a blade to press ink through mesh screens of various gauges.
-                            <strong> A silkscreen transfer</strong>, printed onto a specific paper, is a graphic that is applied with a thermal press onto multiple forms of support (textile, non-woven fabrics, cardboard, etc,...).
+                            <strong>Offset and photoprint transfers</strong> are high-resolution printing solutions that utilize advanced technology to reproduce complex and detailed images. These transfers are applied using a thermal press and are ideal for various types of supports, including textiles, non-woven fabrics, and hard surfaces.
                         </p>
-                        <h2 className="text-xl font-semibold mt-6">Silkscreen transfers have a number of advantages:</h2>
+                        <h2 className="text-xl font-semibold mt-6">Advantages of Offset and Photoprint Transfers:</h2>
                         <ul className="list-disc pl-5 mt-4 space-y-2 text-gray-800">
-                            <li><strong>Quick and easy application</strong>: Branding applied in a few seconds with a thermal press.</li>
-                            <li><strong>Durable quality</strong>: Ideal solution for a perfect, long-lasting result. Economically and environmentally advantageous, promoting a favourable long term image.</li>
-                            <li><strong>Limitless creativity</strong>: Printing of all sorts of visuals, simple or complex, clean-cut or finely detailed (labels, illustrations, logos, photographic images...), giving free rein to your imagination.</li>
-                            <li><strong>Special effects</strong>: Potential to stand-out by incorporating options such as glitter or fluorescent colours, for example.</li>
+                            <li><strong>High-Resolution Printing</strong>: Capable of producing sharp, detailed images with vibrant colors and fine details, making them ideal for complex designs, including photographic images.</li>
+                            <li><strong>Wide Color Gamut</strong>: Offers a broad range of colors, including gradients and subtle tones, ensuring accurate reproduction of any design.</li>
+                            <li><strong>Versatile Applications</strong>: Suitable for various materials, from textiles to non-woven fabrics and hard surfaces, providing flexibility in branding and decoration.</li>
+                            <li><strong>Durability and Resistance</strong>: Transfers are designed to withstand washing, abrasion, and exposure to sunlight, ensuring long-lasting vibrancy and clarity.</li>
+                            <li><strong>Photorealistic Effects</strong>: Ideal for reproducing photographic images, detailed logos, and intricate designs with precision and clarity.</li>
+                            <li><strong>Customization</strong>: Offers the ability to match specific colors and create custom designs, tailored to your brand’s needs.</li>
+                            <li><strong>Easy Application</strong>: Applied using a thermal press, these transfers offer a quick and efficient way to achieve professional-quality results.</li>
+                            <li><strong>Environmentally Friendly</strong>: Produced using eco-friendly inks and processes, making them a sustainable option for brands focused on environmental responsibility.</li>
                         </ul>
                     </div>
                 </div>
+
             </div>
             <Showcase />
             <Footer />

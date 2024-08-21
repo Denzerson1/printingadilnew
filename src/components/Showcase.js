@@ -22,17 +22,17 @@ const TransferOptions = () => {
       <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4 w-full sm:w-8/12">
         <TransferCard
           image={image1}
-          title="Silkscreen transfers"
+          title="Serigraph Transfers"
           link="https://example.com/silkscreen"
         />
         <TransferCard
           image={image2}
-          title="Laser cut transfers"
-          link="https://example.com/lasercut"
+          title="Direct to film Transfers"
+          link="https://example.com"
         />
         <TransferCard
           image={image3}
-          title="DTF transfers"
+          title="3D Silicone Transfers"
           link="https://example.com/dtf"
         />
       </div>
