@@ -7,7 +7,7 @@ const TransferOptions = () => {
         {
             image: image1,
             label: 'DTF',
-            link: '/dtf-transfer',
+            link: '/dtf/transfer',
         }
     ];
 

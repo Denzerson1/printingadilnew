@@ -36,16 +36,16 @@ const TransferOptions = () => {
     ];
 
     return (
-        <div className="container mx-auto px-4 py-8 space-y-6">
+        <div className="container mx-auto px-4 py-8">
             {options.map((option, index) => (
                 <Link to={option.link} key={index} className="block">
-                    <div className="flex items-center border rounded-lg shadow-lg overflow-hidden transition-transform transform hover:shadow-md hover:scale-105">
+                    <div className="flex flex-col md:flex-row items-center border rounded-lg shadow-lg overflow-hidden transition-transform transform hover:shadow-md hover:scale-105 mb-6">
                         {/* Image */}
-                        <div className="w-2/3 h-32 md:h-48 bg-cover bg-center" style={{ backgroundImage: `url(${option.image})` }}></div>
+                        <div className="w-full md:w-2/3 h-48 bg-cover bg-center" style={{ backgroundImage: `url(${option.image})` }}></div>
 
                         {/* Label */}
-                        <div className="w-1/3 p-4 flex items-center justify-center bg-white">
-                            <h3 className="text-lg md:text-xl font-semibold text-right transition-colors hover:text-blue-600">
+                        <div className="w-full md:w-1/3 p-4 flex items-center justify-center bg-white">
+                            <h3 className="text-lg md:text-xl font-semibold text-center md:text-right transition-colors hover:text-blue-600">
                                 {option.label}
                             </h3>
                         </div>

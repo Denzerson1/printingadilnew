@@ -4,25 +4,27 @@ import Footer from '../components/Footer';
 import Showcase from '../components/SiliconeOptions';
 import backgroundImage from '../images/siliconemain.jpg'; // Replace with the path to your background image
 
-const SilkscreenPage = () => {
+const SiliconePage = () => {
     return (
         <div>
             <Header />
             <div className="bg-white">
                 {/* Hero Section */}
                 <div
-                    className="relative bg-cover bg-center h-60"
+                    className="relative bg-cover bg-center h-60 sm:h-72 md:h-76 lg:h-86"
                     style={{ backgroundImage: `url(${backgroundImage})` }}
                 >
                     <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-40">
-                        <h1 className="text-4xl font-bold text-white">SILICONE TRANSFERS</h1>
+                        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white text-center">
+                            SILICONE TRANSFERS
+                        </h1>
                     </div>
                 </div>
 
                 {/* Breadcrumb Navigation */}
-                <nav className="bg-gray-100 py-3">
+                <nav className="bg-gray-100 py-3 sm:py-4">
                     <div className="container mx-auto px-4">
-                        <ol className="flex text-gray-500 text-sm">
+                        <ol className="flex flex-wrap text-gray-500 text-xs sm:text-sm">
                             <li>
                                 <a href="#" className="hover:underline">WELCOME</a>
                             </li>
@@ -31,15 +33,18 @@ const SilkscreenPage = () => {
                         </ol>
                     </div>
                 </nav>
+
                 {/* Content Section */}
-                <div className="container mx-auto px-4 py-8">
+                <div className="container mx-auto px-4 py-6 sm:py-8 md:py-12">
                     {/* Silicone Transfers Section */}
-                    <div className="bg-gray-50 p-6 rounded-lg shadow-lg">
-                        <p className="text-gray-800">
+                    <div className="bg-gray-50 p-4 sm:p-6 md:p-8 rounded-lg shadow-l">
+                        <p className="text-gray-800 text-sm sm:text-base md:text-l leading-relaxed">
                             <strong>Silicone transfers</strong> are advanced printing solutions that utilize silicone-based inks to create durable, flexible, and highly resistant designs. These transfers are applied using a thermal press and are ideal for various types of supports, including textiles, non-woven fabrics, and technical materials.
                         </p>
-                        <h2 className="text-xl font-semibold mt-6">Advantages of Silicone Transfers:</h2>
-                        <ul className="list-disc pl-5 mt-4 space-y-2 text-gray-800">
+                        <h2 className="text-lg sm:text-xl md:text-xl font-semibold mt-6">
+                            Advantages of Silicone Transfers:
+                        </h2>
+                        <ul className="list-disc pl-5 mt-4 space-y-2 text-gray-800 text-sm sm:text-base md:text-l">
                             <li><strong>Exceptional Durability</strong>: Outstanding resistance to washing, abrasion, and environmental factors, ensuring that your designs remain vibrant and intact even after repeated use.</li>
                             <li><strong>Superior Flexibility</strong>: Designed to stretch with the fabric, silicone transfers maintain their shape and integrity, making them ideal for applications on technical fabrics and activewear.</li>
                             <li><strong>High-Quality Finish</strong>: Provides a smooth, raised finish that adds a premium look and feel to your products, with a tactile 3D effect that enhances visual appeal.</li>
@@ -50,7 +55,6 @@ const SilkscreenPage = () => {
                         </ul>
                     </div>
                 </div>
-
             </div>
             <Showcase />
             <Footer />
@@ -58,4 +62,4 @@ const SilkscreenPage = () => {
     );
 };
 
-export default SilkscreenPage;
+export default SiliconePage;
