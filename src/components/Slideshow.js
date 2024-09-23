@@ -132,11 +132,11 @@ const Slideshow = () => {
         <img
           src={Logo}
           alt="Logo"
-          className={`h-72 opacity-90 transition-opacity duration-700 ease-in-out ${
-            animateLogo ? 'fade-out' : 'fade-in'
-          }`}
+          className={`h-36 sm:h-48 md:h-60 lg:h-72 xl:h-80 opacity-90 transition-opacity duration-700 ease-in-out ${animateLogo ? 'fade-out' : 'fade-in'
+            }`}
         />
       </div>
+
 
       {/* Social Media Icons at the bottom center */}
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-20">

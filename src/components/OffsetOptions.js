@@ -11,27 +11,27 @@ const TransferOptions = () => {
         {
             image: image1,
             label: 'OFFSET ON PAPER',
-            link: '/offset-paper',
+            link: '/offset/paper',
         },
         {
             image: image2,
             label: 'OFFSET ANTI-MIGRATION',
-            link: '/offset-anti-migration',
+            link: '/offset/antimigration',
         },
         {
             image: image3,
             label: 'OFFSET REFLECTIVE',
-            link: '/offset-reflective',
+            link: '/offset/reflective',
         },
         {
             image: image4,
             label: 'OFFSET GLITTER',
-            link: '/offset-glitter',
+            link: '/offset/glitter',
         },
         {
             image: image5,
             label: 'OFFSET METALLIC/PEARL',
-            link: '/offset-metallic-pearl',
+            link: '/offset/metallicpearl',
         }
     ];
 

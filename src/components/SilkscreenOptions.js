@@ -14,42 +14,42 @@ const TransferOptions = () => {
         {
             image: image1,
             label: 'SERIGRAPH FOR TAFFETA FABRIC',
-            link: '/serigraph-taffeta',
+            link: '/serigraph/taffeta',
         },
         {
             image: image8,
             label: 'MULTI-STRETCH',
-            link: '/multi-stretch',
+            link: '/serigraph/multistretch',
         },
         {
             image: image6,
             label: 'PUFFY',
-            link: '/puffy',
+            link: '/serigraph/puffy',
         },
         {
             image: image3,
             label: 'FOIL',
-            link: '/foil',
+            link: '/serigraph/foil',
         },
         {
             image: image4,
             label: 'GLITTER',
-            link: '/glitter',
+            link: '/serigraph/glitter',
         },
         {
             image: image5,
             label: 'FLOCK MULTICOLOR',
-            link: '/flock-multicolor',
+            link: '/serigraph/flock-multicolor',
         },
         {
             image: image2,
             label: 'REFLECTIVE',
-            link: '/reflective',
+            link: '/serigraph/reflective',
         },
         {
             image: image7,
             label: 'GLOWING IN THE DARK',
-            link: '/glowing-dark',
+            link: '/serigraph/glowing-dark',
         }
     ];
 

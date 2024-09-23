@@ -10,22 +10,22 @@ const TransferOptions = () => {
         {
             image: image1,
             label: '3D SILICONE HIGH DENSITY TRANSFER',
-            link: '/3d-high-density',
+            link: '/silicone/3dhighdensity',
         },
         {
             image: image2,
             label: '3D SILICONE PATCH LOGO',
-            link: '/3d-patch-logo',
+            link: '/silicone/3dlogo',
         },
         {
             image: image3,
             label: 'FLAT SILICONE TRANSFER',
-            link: '/flat-silicone',
+            link: '/silicone/flat',
         },
         {
             image: image4,
             label: 'SILICONE INJECTION MOLDING',
-            link: '/silicone-injection-molding',
+            link: '/silicone/injection',
         }
     ];
 
