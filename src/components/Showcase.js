@@ -23,17 +23,17 @@ const TransferOptions = () => {
         <TransferCard
           image={image1}
           title="Serigraph Transfers"
-          link="https://example.com/silkscreen"
+          link="/silkscreen"
         />
         <TransferCard
           image={image2}
           title="Direct to film Transfers"
-          link="https://example.com"
+          link="/dtf"
         />
         <TransferCard
           image={image3}
           title="3D Silicone Transfers"
-          link="https://example.com/dtf"
+          link="/silicone/3dhighdensity"
         />
       </div>
     </div>

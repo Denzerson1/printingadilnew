@@ -35,6 +35,7 @@ import Silicone3DHighDensity from '../src/pages/silicone/3dhighdensity';
 import Silicone3DLogo from '../src/pages/silicone/3dlogo';
 import SiliconeFlat from '../src/pages/silicone/flat';
 import SiliconeInjection from '../src/pages/silicone/injection';
+import Contact from '../src/pages/Contact';
 
 function App() {
   return (
@@ -47,7 +48,8 @@ function App() {
         <Route path="/dtf" element={<Dtf />} />
         <Route path="/machines" element={<Machines />} />
         <Route path="/lasercut" element={<Laser />} />
-        <Route path="/offset-photoprint" element={<OffsetPhotoprint />} />        
+        <Route path="/offset-photoprint" element={<OffsetPhotoprint />} />
+        <Route path="/contact" element={<Contact />} />
 
         {/* DTF Routes */}
         <Route path="/dtf/transfer" element={<DtfTransfer />} />

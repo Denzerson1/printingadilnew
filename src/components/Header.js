@@ -99,15 +99,8 @@ const Header = () => {
           </div>
 
           {/* Contact and Language in mobile view */}
-          <div className="lg:hidden flex flex-col mt-4 space-y-2 pb-4">
-            <a href="#contact" className="text-white  hover:text-gray-300 text-xl font-extrabold uppercase">CONTACT</a>
-            <div className="relative pt-2">
-              <select className="bg-indigo-950 text-white text-sm border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
-                <option value="EN">EN</option>
-                <option value="FR">FR</option>
-                <option value="ES">ES</option>
-              </select>
-            </div>
+          <div className=" flex flex-col mt-4 space-y-2 pb-4">
+            <a href="/contact" className="text-white  hover:text-gray-300 text-l font-bold uppercase">CONTACT</a>
           </div>
         </nav>
 
