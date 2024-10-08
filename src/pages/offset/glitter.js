@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
-import backgroundImage from '../../images/dtfmain.jpg'; // Replace with the path to your background image
+import backgroundImage from '../../images/offsetglitter.jpeg'; // Replace with the path to your background image
 
 function DieCutMattPantone() {
     const images = [
@@ -41,7 +41,7 @@ function DieCutMattPantone() {
                 >
                     <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-40">
                         <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white text-center px-4">
-                            DIRECT TO FILM
+                            GLITTER OFFSET
                         </h1>
                     </div>
                 </div>
@@ -54,9 +54,9 @@ function DieCutMattPantone() {
                                 <a href="#" className="hover:underline">WELCOME</a>
                             </li>
                             <li className="mx-2">/</li>
-                            <li className="text-gray-800">DTF</li>
+                            <li className="text-gray-800">OFFSET & PHOTOPRINT</li>
                             <li className="mx-2">/</li>
-                            <li className="text-gray-800">DTF-Transfer</li>
+                            <li className="text-gray-800">GLITTER</li>
                         </ol>
                     </div>
                 </nav>
@@ -97,32 +97,29 @@ function DieCutMattPantone() {
 
                         {/* Description Section */}
                         <div className="flex-1">
-                            <h1 className="text-2xl font-semibold text-gray-900 mb-3">DIE-CUT MATT PANTONE</h1>
+                            <h1 className="text-2xl font-semibold text-gray-900 mb-3">OFFSET GLITTER TRANSFER</h1>
 
                             <p className="text-sm text-gray-700 mb-2">
-                                This monochrome marking process allows you to make transfers in your choice of Pantone colour, or any other colour reference (including fluo).
+                                Add sparkle to your prints with our Offset Glitter Transfer, perfect for festive and eye-catching apparel.
                             </p>
                             <p className="text-sm text-gray-700 mb-3">
-                                The desired colour is prepared in-house by our technicians.
+                                Advantages of Offset Glitter Transfers include:
                             </p>
 
-                            <h2 className="text-lg font-medium text-gray-800 mb-3">The multiple advantages of Die-Cut Matt Pantone transfers are:</h2>
+                            <h2 className="text-lg font-medium text-gray-800 mb-3">The multiple advantages of Offset Glitter transfers are:</h2>
                             <ul className="list-disc list-inside text-sm text-gray-700 space-y-1 mb-3">
-                                <li>Implementation of your chosen colours</li>
-                                <li>Perfect cut-out</li>
-                                <li>Stretchable</li>
-                                <li>Ready to apply (pre-trimmed)</li>
-                                <li>Washable at 60°C (140°F)</li>
-                                <li>Choice of packaging: Per unit or on a roll</li>
-                                <li>OEKO-TEX® STANDARD 100 certificat N° CQ 580/2 IFTH certified</li>
+                                <li>Brilliant glitter finish for festive designs</li>
+                                <li>Sharp print quality with a sparkling effect</li>
+                                <li>Washable and long-lasting</li>
                             </ul>
 
                             <p className="text-sm text-gray-700 mb-2">
-                                <strong>+ Colour-stop bleeding option:</strong> Specifically developed to prevent colour bleeding from coated polyester or softshell supports.
+                                <strong>+ Non-fading glitter option:</strong> Maintains its sparkle after multiple washes.
                             </p>
                             <p className="text-sm text-gray-700 mb-5">
-                                <strong>+ Anti-slip option:</strong> Only available for dark transfers.
+                                <strong>+ Custom color option:</strong> Available in a wide range of glitter colors to suit your brand.
                             </p>
+
 
                             {/* Buttons */}
                             <div className="flex space-x-4">

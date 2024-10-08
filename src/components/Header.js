@@ -67,7 +67,7 @@ const Header = () => {
               <Link to="/lasercut" className="text-white hover:text-gray-300 py-3 lg:py-0">
                 Laser Cut Transfer
               </Link>
-              <div className="absolute left-0 hidden group-hover:block py-3 w-56 bg-white rounded-lg shadow-lg">
+              <div className="block md:hidden absolute left-0 hidden group-hover:block py-3 w-56 bg-white rounded-lg shadow-lg">
                 <Link to="/lasercut/reflective" className="block px-4 py-2 text-gray-800 hover:bg-gray-200">Reflective</Link>
                 <Link to="/lasercut/specialeffects" className="block px-4 py-2 text-gray-800 hover:bg-gray-200">Special Effects</Link>
                 <Link to="/lasercut/hologram" className="block px-4 py-2 text-gray-800 hover:bg-gray-200">Hologram</Link>

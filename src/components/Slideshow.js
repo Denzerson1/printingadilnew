@@ -133,8 +133,9 @@ const Slideshow = () => {
           src={Logo}
           alt="Logo"
           className={`h-36 sm:h-48 md:h-60 lg:h-72 xl:h-80 opacity-90 transition-opacity duration-700 ease-in-out ${animateLogo ? 'fade-out' : 'fade-in'
-            }`}
+            } pointer-events-none user-select-none`}
         />
+
       </div>
 
 

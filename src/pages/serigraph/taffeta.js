@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
-import backgroundImage from '../../images/dtfmain.jpg'; // Replace with the path to your background image
+import backgroundImage from '../../images/taffeta.jpg'; // Replace with the path to your background image
 
 function DieCutMattPantone() {
     const images = [
@@ -41,7 +41,7 @@ function DieCutMattPantone() {
                 >
                     <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-40">
                         <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white text-center px-4">
-                            DIRECT TO FILM
+                            TAFFETA FABRIC SERIGRAPH
                         </h1>
                     </div>
                 </div>
@@ -97,32 +97,29 @@ function DieCutMattPantone() {
 
                         {/* Description Section */}
                         <div className="flex-1">
-                            <h1 className="text-2xl font-semibold text-gray-900 mb-3">DIE-CUT MATT PANTONE</h1>
-
+                            <h1 className="text-2xl font-semibold text-gray-900 mb-3">SERIGRAPH FOR TAFFETA FABRIC</h1>
                             <p className="text-sm text-gray-700 mb-2">
-                                This monochrome marking process allows you to make transfers in your choice of Pantone colour, or any other colour reference (including fluo).
+                                Create stunning designs on taffeta with our Serigraph for Taffeta Fabric Transfer, perfect for evening wear and formal garments.
                             </p>
                             <p className="text-sm text-gray-700 mb-3">
-                                The desired colour is prepared in-house by our technicians.
+                                Advantages of Serigraph for Taffeta Fabric Transfers include:
                             </p>
 
-                            <h2 className="text-lg font-medium text-gray-800 mb-3">The multiple advantages of Die-Cut Matt Pantone transfers are:</h2>
+                            <h2 className="text-lg font-medium text-gray-800 mb-3">The multiple advantages of Serigraph for Taffeta Fabric transfers are:</h2>
                             <ul className="list-disc list-inside text-sm text-gray-700 space-y-1 mb-3">
-                                <li>Implementation of your chosen colours</li>
-                                <li>Perfect cut-out</li>
-                                <li>Stretchable</li>
-                                <li>Ready to apply (pre-trimmed)</li>
-                                <li>Washable at 60°C (140°F)</li>
-                                <li>Choice of packaging: Per unit or on a roll</li>
-                                <li>OEKO-TEX® STANDARD 100 certificat N° CQ 580/2 IFTH certified</li>
+                                <li>Sharp and vibrant print quality</li>
+                                <li>Designed specifically for smooth surfaces</li>
+                                <li>Durable and long-lasting, suitable for multiple washes</li>
                             </ul>
 
                             <p className="text-sm text-gray-700 mb-2">
-                                <strong>+ Colour-stop bleeding option:</strong> Specifically developed to prevent colour bleeding from coated polyester or softshell supports.
+                                <strong>+ Low-temperature application option:</strong> Ensures that delicate fabrics are not damaged during the application process.
                             </p>
                             <p className="text-sm text-gray-700 mb-5">
-                                <strong>+ Anti-slip option:</strong> Only available for dark transfers.
+                                <strong>+ Soft-hand feel option:</strong> Provides a comfortable finish that feels great against the skin.
                             </p>
+
+
 
                             {/* Buttons */}
                             <div className="flex space-x-4">

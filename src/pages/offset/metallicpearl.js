@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
-import backgroundImage from '../../images/dtfmain.jpg'; // Replace with the path to your background image
+import backgroundImage from '../../images/offsetmetallic.jpg'; // Replace with the path to your background image
 
 function DieCutMattPantone() {
     const images = [
@@ -41,7 +41,7 @@ function DieCutMattPantone() {
                 >
                     <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-40">
                         <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white text-center px-4">
-                            DIRECT TO FILM
+                            OFFSET METALLIC
                         </h1>
                     </div>
                 </div>
@@ -54,9 +54,9 @@ function DieCutMattPantone() {
                                 <a href="#" className="hover:underline">WELCOME</a>
                             </li>
                             <li className="mx-2">/</li>
-                            <li className="text-gray-800">DTF</li>
+                            <li className="text-gray-800">OFFSET & PHOTOPRINT</li>
                             <li className="mx-2">/</li>
-                            <li className="text-gray-800">DTF-Transfer</li>
+                            <li className="text-gray-800">METALLIC</li>
                         </ol>
                     </div>
                 </nav>
@@ -97,31 +97,27 @@ function DieCutMattPantone() {
 
                         {/* Description Section */}
                         <div className="flex-1">
-                            <h1 className="text-2xl font-semibold text-gray-900 mb-3">DIE-CUT MATT PANTONE</h1>
+                            <h1 className="text-2xl font-semibold text-gray-900 mb-3">OFFSET METALLIC TRANSFER</h1>
 
                             <p className="text-sm text-gray-700 mb-2">
-                                This monochrome marking process allows you to make transfers in your choice of Pantone colour, or any other colour reference (including fluo).
+                                Add a luxurious touch with our Offset Metallic/Pearl Transfer, offering shimmering effects for premium designs.
                             </p>
                             <p className="text-sm text-gray-700 mb-3">
-                                The desired colour is prepared in-house by our technicians.
+                                Advantages of Offset Metallic/Pearl Transfers include:
                             </p>
 
-                            <h2 className="text-lg font-medium text-gray-800 mb-3">The multiple advantages of Die-Cut Matt Pantone transfers are:</h2>
+                            <h2 className="text-lg font-medium text-gray-800 mb-3">The multiple advantages of Offset Metallic/Pearl transfers are:</h2>
                             <ul className="list-disc list-inside text-sm text-gray-700 space-y-1 mb-3">
-                                <li>Implementation of your chosen colours</li>
-                                <li>Perfect cut-out</li>
-                                <li>Stretchable</li>
-                                <li>Ready to apply (pre-trimmed)</li>
-                                <li>Washable at 60°C (140°F)</li>
-                                <li>Choice of packaging: Per unit or on a roll</li>
-                                <li>OEKO-TEX® STANDARD 100 certificat N° CQ 580/2 IFTH certified</li>
+                                <li>Metallic or pearl finish for luxury appeal</li>
+                                <li>Great for logos, branding, and high-end apparel</li>
+                                <li>Durable and washable for long-lasting shine</li>
                             </ul>
 
                             <p className="text-sm text-gray-700 mb-2">
-                                <strong>+ Colour-stop bleeding option:</strong> Specifically developed to prevent colour bleeding from coated polyester or softshell supports.
+                                <strong>+ Anti-tarnish option:</strong> Prevents the metallic finish from tarnishing over time.
                             </p>
                             <p className="text-sm text-gray-700 mb-5">
-                                <strong>+ Anti-slip option:</strong> Only available for dark transfers.
+                                <strong>+ Reflective gloss option:</strong> Enhances the metallic effect with an added glossy finish for extra shine.
                             </p>
 
                             {/* Buttons */}

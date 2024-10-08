@@ -73,10 +73,10 @@ function App() {
         <Route path="/offset/reflective" element={<OffsetReflective />} />
 
         {/* Serigraph Routes */}
-        <Route path="/serigraph/flock" element={<SerigraphFlock />} />
+        <Route path="/serigraph/flock-multicolor" element={<SerigraphFlock />} />
         <Route path="/serigraph/foil" element={<SerigraphFoil />} />
         <Route path="/serigraph/glitter" element={<SerigraphGlitter />} />
-        <Route path="/serigraph/glowing" element={<SerigraphGlowing />} />
+        <Route path="/serigraph/glowing-dark" element={<SerigraphGlowing />} />
         <Route path="/serigraph/multistretch" element={<SerigraphMultistretch />} />
         <Route path="/serigraph/puffy" element={<SerigraphPuffy />} />
         <Route path="/serigraph/reflective" element={<SerigraphReflective />} />
