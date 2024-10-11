@@ -3,6 +3,7 @@ import Innovation from '../images/advantages1.jpg';
 import Knowledge from '../images/knowledge.png';
 import Fabric from '../images/fabric.png';
 import Environment from '../images/environment.png';
+import { Link } from 'react-router-dom';
 
 const InnovationAndTransfers = () => {
   return (
@@ -19,9 +20,11 @@ const InnovationAndTransfers = () => {
             <p className="mt-2 text-gray-700">
               Keeping informed of current trends, we also adapt our products to incorporate with the latest materials, textures, and colours.
             </p>
-            <button className="mt-6 px-6 py-2 border border-gray-700 text-gray-700 hover:bg-gray-700 hover:text-white transition-colors">
-              Our expertise
-            </button>
+            <Link to="/about">
+              <button className="mt-6 px-6 py-2 border border-gray-700 text-gray-700 hover:bg-gray-700 hover:text-white transition-colors">
+                Our expertise
+              </button>
+            </Link>
           </div>
 
           {/* Image Section */}

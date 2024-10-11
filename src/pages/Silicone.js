@@ -2,11 +2,13 @@ import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Showcase from '../components/SiliconeOptions';
-import backgroundImage from '../images/siliconemain.jpg'; // Replace with the path to your background image
+import backgroundImage from '../images/siliconemain.jpg';
+import ScrollToTop from '../components/ScrollToTop';
 
 const SiliconePage = () => {
     return (
-        <div>
+
+        <ScrollToTop>
             <Header />
             <div className="bg-white">
                 {/* Hero Section */}
@@ -58,7 +60,7 @@ const SiliconePage = () => {
             </div>
             <Showcase />
             <Footer />
-        </div>
+        </ScrollToTop>
     );
 };
 

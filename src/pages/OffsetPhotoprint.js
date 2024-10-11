@@ -3,10 +3,11 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Showcase from '../components/OffsetOptions';
 import backgroundImage from '../images/project.jpg'; // Replace with the path to your background image
+import ScrollToTop from '../components/ScrollToTop';
 
 const SilkscreenPage = () => {
     return (
-        <div>
+        <ScrollToTop>
             <Header />
             <div className="bg-white">
                 {/* Hero Section */}
@@ -58,7 +59,7 @@ const SilkscreenPage = () => {
             </div>
             <Showcase />
             <Footer />
-        </div>
+        </ScrollToTop>
     );
 };
 

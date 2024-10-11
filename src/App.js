@@ -1,6 +1,5 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Company from '../src/pages/Company';
 import Home from '../src/pages/Home';
 import Silkscreen from '../src/pages/Silkscreen';
 import Silicone from '../src/pages/Silicone';
@@ -35,14 +34,18 @@ import Silicone3DHighDensity from '../src/pages/silicone/3dhighdensity';
 import Silicone3DLogo from '../src/pages/silicone/3dlogo';
 import SiliconeFlat from '../src/pages/silicone/flat';
 import SiliconeInjection from '../src/pages/silicone/injection';
+import FAQ from '../src/pages/faq';
 import Contact from '../src/pages/Contact';
+import About from '../src/pages/About';
+import Terms from '../src/pages/Terms';
+import PrivacyPolicy from '../src/pages/PrivacyPolicy';
+import LegalNotice from '../src/pages/LegalNotice';
 
 function App() {
   return (
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/company" element={<Company />} />
         <Route path="/silkscreen" element={<Silkscreen />} />
         <Route path="/silicone" element={<Silicone />} />
         <Route path="/dtf" element={<Dtf />} />
@@ -50,6 +53,10 @@ function App() {
         <Route path="/lasercut" element={<Laser />} />
         <Route path="/offset-photoprint" element={<OffsetPhotoprint />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/faq" element={<FAQ />} />
+        <Route path="/about" element={<About />} />
+
+        
 
         {/* DTF Routes */}
         <Route path="/dtf/transfer" element={<DtfTransfer />} />
@@ -87,6 +94,10 @@ function App() {
         <Route path="/silicone/3dlogo" element={<Silicone3DLogo />} />
         <Route path="/silicone/flat" element={<SiliconeFlat />} />
         <Route path="/silicone/injection" element={<SiliconeInjection />} />
+
+        <Route path="/tos" element={<Terms />} />
+        <Route path="/privacypolicy" element={<PrivacyPolicy />} />
+        <Route path="/legalnotice" element={<LegalNotice />} />
       </Routes>
     </Router>
   );

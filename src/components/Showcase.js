@@ -33,7 +33,7 @@ const TransferOptions = () => {
         <TransferCard
           image={image3}
           title="3D Silicone Transfers"
-          link="/silicone/3dhighdensity"
+          link="/silicone"
         />
       </div>
     </div>

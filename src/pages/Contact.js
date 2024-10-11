@@ -3,6 +3,8 @@
 import React, { useState } from "react";
 import emailjs from "@emailjs/browser";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
+import ScrollToTop from "../components/ScrollToTop";
 
 const ContactForm = () => {
     const [formData, setFormData] = useState({
@@ -49,10 +51,10 @@ const ContactForm = () => {
     };
 
     return (
-        <div>
+        <ScrollToTop>
             <Header />
             <div className="flex justify-center items-center pt-24">
-                <div className="w-full max-w-lg p-8 bg-white shadow-lg rounded-lg">
+                <div className="w-full max-w-lg p-8 bg-white shadow-lg rounded-lg mb-24">
                     <h2 className="text-2xl font-bold mb-6">Contact Us</h2>
                     <form onSubmit={handleSubmit} className="space-y-4">
                         <div>
@@ -98,7 +100,8 @@ const ContactForm = () => {
                     {formStatus && <p className="mt-4 text-center text-green-500">{formStatus}</p>}
                 </div>
             </div>
-        </div>
+            <Footer />
+        </ScrollToTop>
     );
 };
 

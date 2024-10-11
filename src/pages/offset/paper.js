@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
-import backgroundImage from '../../images/offsetpaper.jpeg'; // Replace with the path to your background image
+import backgroundImage from '../../images/offsetpaper.jpeg';
+import ScrollToTop from '../../components/ScrollToTop';
 
 function DieCutMattPantone() {
     const images = [
@@ -31,7 +32,7 @@ function DieCutMattPantone() {
     };
 
     return (
-        <div>
+        <ScrollToTop>
             <Header />
             <div className="bg-white">
                 {/* Hero Section */}
@@ -66,10 +67,6 @@ function DieCutMattPantone() {
                     <div className="flex flex-col md:flex-row items-start md:space-x-8">
                         {/* Image Section */}
                         <div className="relative flex-1 mb-6 md:mb-0">
-                            {/* Promotional Banner */}
-                            <div className="absolute top-2 left-2 bg-blue-600 text-white px-2 py-1 text-xs rounded-md">
-                                Exclu !
-                            </div>
 
                             {/* Image Slider */}
                             <div className="relative">
@@ -137,7 +134,7 @@ function DieCutMattPantone() {
                 </div>
                 <Footer />
             </div>
-        </div>
+        </ScrollToTop>
     );
 }
 
