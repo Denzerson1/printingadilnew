@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
-// import machineImage from '../../images/machinemain.jpg'; // Replace with the path to your background image
+// import powderImage from '../../images/powdermain.jpg'; // Replace with the path to your background image
 
-function EnJetDTFMachines() {
+function EnJetDTFPU() {
     const images = [
-        'https://via.placeholder.com/400x500?text=Machine+Image+1', // replace with actual image URLs
-        'https://via.placeholder.com/400x500?text=Machine+Image+2',
-        'https://via.placeholder.com/400x500?text=Machine+Image+3'
+        'https://via.placeholder.com/400x500?text=Powder+Image+1', // replace with actual image URLs
+        'https://via.placeholder.com/400x500?text=Powder+Image+2',
+        'https://via.placeholder.com/400x500?text=Powder+Image+3'
     ];
 
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -37,11 +37,11 @@ function EnJetDTFMachines() {
                 {/* Hero Section */}
                 <div
                     className="relative bg-cover bg-center h-60 sm:h-72 md:h-76 lg:h-86"
-                    // style={{ backgroundImage: `url(${machineImage})` }}
+                    // style={{ backgroundImage: `url(${powderImage})` }}
                 >
                     <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50">
                         <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white text-center px-4">
-                            ENJET DTF 4-2 MACHINE
+                            ENJET DTF PU POWDER
                         </h1>
                     </div>
                 </div>
@@ -56,7 +56,7 @@ function EnJetDTFMachines() {
                             <li className="mx-2">/</li>
                             <li className="text-gray-800">DTF Products</li>
                             <li className="mx-2">/</li>
-                            <li className="text-gray-800">ENJET DTF 4-2 Machine</li>
+                            <li className="text-gray-800">ENJET DTF PU Powder</li>
                         </ol>
                     </div>
                 </nav>
@@ -92,23 +92,30 @@ function EnJetDTFMachines() {
 
                         {/* Description Section */}
                         <div className="flex-1 space-y-4">
-                            <h1 className="text-3xl font-semibold text-gray-900">ENJET DTF 4 - 2 Machine</h1>
+                            <h1 className="text-3xl font-semibold text-gray-900">ENJET DTF PU POWDER</h1>
                             <p className="text-gray-700 leading-relaxed">
-                                The ENJET DTF 4 - 2 series printers are designed for high-quality Direct-to-Film printing, offering two configurations to suit different production needs. Both models deliver vibrant and detailed prints, ensuring precise color reproduction with every job. With the choice between the EN70-4 and EN70-2 models, users can select the speed and capacity that best fits their workflow.
+                                ENJET DTF PU Powder is designed for exceptional adhesion and flexibility in Direct-to-Film (DTF) printing applications. Its low-temperature melting properties make it easy to work with, while maintaining a secure bond to fabrics. It provides superior washing resistance, ensuring that printed designs remain vivid and durable even after numerous washes. Additionally, the powder's elasticity makes it perfect for fabrics that stretch, ensuring that designs stay intact.
                             </p>
+                            <ul className="list-disc list-inside text-sm text-gray-700 space-y-1">
+                                <li>Superior adhesion ensures a strong bond with fabric.</li>
+                                <li>Low melting temperature facilitates easy transfer.</li>
+                                <li>Outstanding washing properties maintain design integrity.</li>
+                                <li>High elasticity is ideal for flexible and stretchable fabrics.</li>
+                            </ul>
 
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-sm">
                                 <div>
-                                    <h2 className="font-medium text-gray-800">EN70-4 DTF Printer:</h2>
-                                    <p>Number of print heads: 4 pcs EPSON 13200</p>
-                                    <p>Print width: 600 mm</p>
-                                    <p>Maximum speed: 22 m²/h</p>
+                                    <h2 className="font-medium text-gray-800">Specifications:</h2>
+                                    <p>Particle size: 80-100μ</p>
+                                    <p>Melting point: 95-105°C / 203-221°F</p>
+                                    <p>Transfer temperature: 120°C-150°C recommended</p>
+                                    <p>Transfer pressure: Between 2-3 bar</p>
+                                    <p>Recommended transfer time: 10-15 sec</p>
                                 </div>
                                 <div>
-                                    <h2 className="font-medium text-gray-800">EN70-2 DTF Printer:</h2>
-                                    <p>Number of print heads: 2 pcs EPSON 13200</p>
-                                    <p>Print width: 600 mm</p>
-                                    <p>Maximum speed: 8 m²/h</p>
+                                    <h2 className="font-medium text-gray-800">End Uses:</h2>
+                                    <p>T-shirt, Bag, Footwear</p>
+                                    <p>Fabric and Leather</p>
                                 </div>
                             </div>
 
@@ -120,7 +127,7 @@ function EnJetDTFMachines() {
                                 </button>
                                 <button className="bg-gray-600 text-white px-5 py-2 rounded-md flex items-center shadow hover:bg-gray-700 transition">
                                     <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 12h2m-8 0h2m-6 0h2m-2 4h16m0 4H4m0-8h16m0-4H4m0-4h16" /></svg>
-                                    Request Quote
+                                    Request Sample
                                 </button>
                             </div>
                         </div>
@@ -132,4 +139,4 @@ function EnJetDTFMachines() {
     );
 }
 
-export default EnJetDTFMachines;
+export default EnJetDTFPU;

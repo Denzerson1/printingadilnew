@@ -16,7 +16,6 @@ import LaserReflective from '../src/pages/lasercut/reflective';
 import LaserSpecialEffects from '../src/pages/lasercut/specialeffect';
 import MaterialsInk from '../src/pages/materials/ink';
 import MaterialsMachines from '../src/pages/materials/machines';
-import MaterialsThermalPress from '../src/pages/materials/thermalpress';
 import OffsetAntiMigration from '../src/pages/offset/antimigration';
 import OffsetGlitter from '../src/pages/offset/glitter';
 import OffsetMetallicPearl from '../src/pages/offset/metallicpearl';
@@ -40,6 +39,8 @@ import About from '../src/pages/About';
 import Terms from '../src/pages/Terms';
 import PrivacyPolicy from '../src/pages/PrivacyPolicy';
 import LegalNotice from '../src/pages/LegalNotice';
+import Film from '../src/pages/materials/film';
+import Powder from '../src/pages/materials/powder';
 
 function App() {
   return (
@@ -70,7 +71,8 @@ function App() {
         {/* Materials Routes */}
         <Route path="/materials/ink" element={<MaterialsInk />} />
         <Route path="/materials/machines" element={<MaterialsMachines />} />
-        <Route path="/materials/thermalpress" element={<MaterialsThermalPress />} />
+        <Route path="/materials/film" element={<Film />} />
+        <Route path="/materials/powder" element={<Powder/>} />
 
         {/* Offset Routes */}
         <Route path="/offset/antimigration" element={<OffsetAntiMigration />} />

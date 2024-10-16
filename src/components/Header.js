@@ -66,7 +66,7 @@ const Header = () => {
                   <Link to="/serigraph/glitter" className="block px-4 py-2 text-gray-800 hover:bg-gray-200">Glitter</Link>
                   <Link to="/serigraph/flock-multicolor" className="block px-4 py-2 text-gray-800 hover:bg-gray-200">Flock Multicolor</Link>
                   <Link to="/serigraph/reflective" className="block px-4 py-2 text-gray-800 hover:bg-gray-200">Reflective</Link>
-                  <Link to="/serigraph/glowing-dark" className="block px-4 py-2 text-gray-800 hover:bg-gray-200">Glowing in the dark</Link>
+                  <Link to="/serigraph/glowing-dark " className="block px-4 py-2 text-gray-800 hover:bg-gray-200">Glowing in the dark</Link>
                 </div>
               )}
             </div>
@@ -117,8 +117,9 @@ const Header = () => {
               {showDropdown && (
                 <div className="absolute left-0 hidden group-hover:block mt-0 py-3 w-56 bg-white rounded-lg shadow-lg">
                   <Link to="/materials/machines" className="block px-4 py-2 text-gray-800 hover:bg-gray-200">Machines</Link>
-                  <Link to="/materials/ink" className="block px-4 py-2 text-gray-800 hover:bg-gray-200">Ink</Link>
-                  <Link to="/materials/thermalpress" className="block px-4 py-2 text-gray-800 hover:bg-gray-200">Thermal Presses</Link>
+                  <Link to="/materials/ink" className="block px-4 py-2 text-gray-800 hover:bg-gray-200">DTF Ink</Link>
+                  <Link to="/materials/powder" className="block px-4 py-2 text-gray-800 hover:bg-gray-200">DTF PU Powder</Link>
+                  <Link to="/materials/film" className="block px-4 py-2 text-gray-800 hover:bg-gray-200">DTF Film</Link>
                 </div>
               )}
             </div>
