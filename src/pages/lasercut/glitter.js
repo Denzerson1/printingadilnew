@@ -3,23 +3,15 @@ import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import backgroundImage from '../../images/laserglitter.jpeg';
 import ScrollToTop from '../../components/ScrollToTop';
+import img1 from '../../images/laser-glitter/1.jpeg';
+import img2 from '../../images/laser-glitter/2.jpeg';
 
 function DieCutMattPantone() {
     const images = [
-        'https://via.placeholder.com/400x500?text=Image+1', // replace with actual image URLs
-        'https://via.placeholder.com/400x500?text=Image+2',
-        'https://via.placeholder.com/400x500?text=Image+3'
+        img1, img2
     ];
 
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
-
-    useEffect(() => {
-        const interval = setInterval(() => {
-            setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
-        }, 2000); // Change image every 2 seconds
-
-        return () => clearInterval(interval);
-    }, [images.length]);
 
     const handlePrevious = () => {
         setCurrentImageIndex((prevIndex) =>
@@ -134,8 +126,9 @@ function DieCutMattPantone() {
                         </div>
                     </div>
                 </div>
-                <Footer />
+
             </div>
+            <Footer />
         </ScrollToTop>
     );
 }

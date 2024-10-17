@@ -4,22 +4,19 @@ import Footer from '../../components/Footer';
 import backgroundImage from '../../images/offsetglitter.jpeg'; // Replace with the path to your background image
 import ScrollToTop from '../../components/ScrollToTop';
 
+import img1 from '../../images/offset-glitter/1.jpeg';
+import img2 from '../../images/offset-glitter/2.jpeg';
+import img3 from '../../images/offset-glitter/3.jpeg';
+import img4 from '../../images/offset-glitter/4.jpg';
+
 function DieCutMattPantone() {
     const images = [
-        'https://via.placeholder.com/400x500?text=Image+1', // replace with actual image URLs
-        'https://via.placeholder.com/400x500?text=Image+2',
-        'https://via.placeholder.com/400x500?text=Image+3'
+        img1,img2,img3,img4
     ];
 
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
-    useEffect(() => {
-        const interval = setInterval(() => {
-            setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
-        }, 2000); // Change image every 2 seconds
-
-        return () => clearInterval(interval);
-    }, [images.length]);
+    
 
     const handlePrevious = () => {
         setCurrentImageIndex((prevIndex) =>

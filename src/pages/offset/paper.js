@@ -4,22 +4,27 @@ import Footer from '../../components/Footer';
 import backgroundImage from '../../images/offsetpaper.jpeg';
 import ScrollToTop from '../../components/ScrollToTop';
 
+import img1 from '../../images/offset-paper/1.jpg';
+import img2 from '../../images/offset-paper/2.jpg';
+import img3 from '../../images/offset-paper/3.jpg';
+import img4 from '../../images/offset-paper/4.jpeg';
+import img5 from '../../images/offset-paper/5.jpeg';
+import img6 from '../../images/offset-paper/6.jpeg';
+import img7 from '../../images/offset-paper/7.jpeg';
+import img8 from '../../images/offset-paper/8.jpeg';
+import img9 from '../../images/offset-paper/9.jpeg';
+import img10 from '../../images/offset-paper/10.jpeg';
+import img11 from '../../images/offset-paper/11.jpeg';
+import img12 from '../../images/offset-paper/12.jpeg';
+import img13 from '../../images/offset-paper/13.jpeg';
+
 function DieCutMattPantone() {
     const images = [
-        'https://via.placeholder.com/400x500?text=Image+1', // replace with actual image URLs
-        'https://via.placeholder.com/400x500?text=Image+2',
-        'https://via.placeholder.com/400x500?text=Image+3'
+        img1,img2,img3,img4,img5,img6,img7,img8,img9,img10,img11,img12,img13
     ];
 
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
-    useEffect(() => {
-        const interval = setInterval(() => {
-            setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
-        }, 2000); // Change image every 2 seconds
-
-        return () => clearInterval(interval);
-    }, [images.length]);
 
     const handlePrevious = () => {
         setCurrentImageIndex((prevIndex) =>

@@ -4,22 +4,23 @@ import Footer from '../../components/Footer';
 import backgroundImage from '../../images/offsetantimigration.jpg';
 import ScrollToTop from '../../components/ScrollToTop';
 
+import img1 from '../../images/offset-migration/1.jpg';
+import img2 from '../../images/offset-migration/2.jpg';
+import img3 from '../../images/offset-migration/3.jpg';
+import img4 from '../../images/offset-migration/4.jpg';
+import img5 from '../../images/offset-migration/5.jpg';
+import img6 from '../../images/offset-migration/6.jpg';
+import img7 from '../../images/offset-migration/7.jpg';
+import img8 from '../../images/offset-migration/8.jpg';
+
+
 function DieCutMattPantone() {
     const images = [
-        'https://via.placeholder.com/400x500?text=Image+1', // replace with actual image URLs
-        'https://via.placeholder.com/400x500?text=Image+2',
-        'https://via.placeholder.com/400x500?text=Image+3'
+        img1,img2,img3,img4,img5,img6,img7,img8
     ];
 
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
-    useEffect(() => {
-        const interval = setInterval(() => {
-            setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
-        }, 2000); // Change image every 2 seconds
-
-        return () => clearInterval(interval);
-    }, [images.length]);
 
     const handlePrevious = () => {
         setCurrentImageIndex((prevIndex) =>

@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from '../src/pages/Home';
 import Silkscreen from '../src/pages/Silkscreen';
 import Silicone from '../src/pages/Silicone';
-import Machines from '../src/pages/Machines';
 import Dtf from '../src/pages/Dtf';
 import Laser from '../src/pages/Laser';
 import OffsetPhotoprint from '../src/pages/OffsetPhotoprint';
@@ -41,6 +40,7 @@ import PrivacyPolicy from '../src/pages/PrivacyPolicy';
 import LegalNotice from '../src/pages/LegalNotice';
 import Film from '../src/pages/materials/film';
 import Powder from '../src/pages/materials/powder';
+import Materials from '../src/pages/Materials';
 
 function App() {
   return (
@@ -50,7 +50,6 @@ function App() {
         <Route path="/silkscreen" element={<Silkscreen />} />
         <Route path="/silicone" element={<Silicone />} />
         <Route path="/dtf" element={<Dtf />} />
-        <Route path="/machines" element={<Machines />} />
         <Route path="/lasercut" element={<Laser />} />
         <Route path="/offset-photoprint" element={<OffsetPhotoprint />} />
         <Route path="/contact" element={<Contact />} />
@@ -69,6 +68,7 @@ function App() {
         <Route path="/lasercut/specialeffects" element={<LaserSpecialEffects />} />
 
         {/* Materials Routes */}
+        <Route path="/materials" element={<Materials />} />
         <Route path="/materials/ink" element={<MaterialsInk />} />
         <Route path="/materials/machines" element={<MaterialsMachines />} />
         <Route path="/materials/film" element={<Film />} />

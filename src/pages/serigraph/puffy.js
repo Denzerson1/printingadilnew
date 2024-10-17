@@ -4,22 +4,16 @@ import Footer from '../../components/Footer';
 import backgroundImage from '../../images/puff.jpg'; // Replace with the path to your background image
 import ScrollToTop from '../../components/ScrollToTop';
 
+import img1 from '../../images/serigraph-puffy/1.jpg';
+import img2 from '../../images/serigraph-puffy/2.jpg';
+import img3 from '../../images/serigraph-puffy/3.jpg';
+
 function DieCutMattPantone() {
     const images = [
-        'https://via.placeholder.com/400x500?text=Image+1', // replace with actual image URLs
-        'https://via.placeholder.com/400x500?text=Image+2',
-        'https://via.placeholder.com/400x500?text=Image+3'
+        img1,img2,img3
     ];
 
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
-
-    useEffect(() => {
-        const interval = setInterval(() => {
-            setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
-        }, 2000); // Change image every 2 seconds
-
-        return () => clearInterval(interval);
-    }, [images.length]);
 
     const handlePrevious = () => {
         setCurrentImageIndex((prevIndex) =>

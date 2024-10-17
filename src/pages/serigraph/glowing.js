@@ -4,11 +4,13 @@ import Footer from '../../components/Footer';
 import backgroundImage from '../../images/glow.jpeg'; // Replace with the path to your background image
 import ScrollToTop from '../../components/ScrollToTop';
 
+import img1 from '../../images/serigraph-glowing/1.jpeg';
+import img2 from '../../images/serigraph-glowing/2.jpeg';
+import img3 from '../../images/serigraph-glowing/3.jpg';
+
 function DieCutMattPantone() {
     const images = [
-        'https://via.placeholder.com/400x500?text=Image+1', // replace with actual image URLs
-        'https://via.placeholder.com/400x500?text=Image+2',
-        'https://via.placeholder.com/400x500?text=Image+3'
+        img1,img2,img3
     ];
 
     const [currentImageIndex, setCurrentImageIndex] = useState(0);

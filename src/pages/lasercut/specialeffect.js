@@ -4,22 +4,22 @@ import Footer from '../../components/Footer';
 import backgroundImage from '../../images/laserspecial.jpeg';
 import ScrollToTop from '../../components/ScrollToTop';
 
+import img1 from '../../images/laser-special/1.jpg';
+import img2 from '../../images/laser-special/2.jpeg';
+import img3 from '../../images/laser-special/3.jpeg';
+import img4 from '../../images/laser-special/4.jpeg';
+import img5 from '../../images/laser-special/5.jpeg';
+import img6 from '../../images/laser-special/6.jpeg';
+import img7 from '../../images/laser-special/7.jpeg';
+import img8 from '../../images/laser-special/8.jpeg';
+import img9 from '../../images/laser-special/9.jpeg';
+
 function DieCutMattPantone() {
     const images = [
-        'https://via.placeholder.com/400x500?text=Image+1', // replace with actual image URLs
-        'https://via.placeholder.com/400x500?text=Image+2',
-        'https://via.placeholder.com/400x500?text=Image+3'
+        img1,img2,img3,img4,img5,img6,img7,img8,img9
     ];
 
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
-
-    useEffect(() => {
-        const interval = setInterval(() => {
-            setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
-        }, 2000); // Change image every 2 seconds
-
-        return () => clearInterval(interval);
-    }, [images.length]);
 
     const handlePrevious = () => {
         setCurrentImageIndex((prevIndex) =>
